@@ -81,7 +81,7 @@ public class ChessMatch {
 		check = (testCheck(opponent(currentPlayer))) ? true : false;
 		
 		
-		if (testCheck(opponent(currentPlayer))) {
+		if (testCheckMate(opponent(currentPlayer))) {
 			checkMate = true;
 		}
 		else {
